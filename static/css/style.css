@@ -1,0 +1,329 @@
+
+.jumbotron {
+  background-image: url("/static/images/clinical-documentation.jpeg");
+  background-size: cover;
+  background-position: 0% 15%;
+  height: 350px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+.select {
+  color:#000000
+}
+
+
+
+h1 {
+font-size: 200px;
+font-family: Verdana, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+h2 {
+font-size: 50px;
+font-family: Verdana, Helvetica, sans-serif;
+}
+
+h3 {
+font-size: 30px;
+font-family: Verdana, Helvetica, sans-serif;
+}
+
+h7{
+  visibility: hidden;
+}
+
+
+
+p {
+font-size: 17px;
+font-family: Verdana, Helvetica, sans-serif;
+}
+
+#map {
+height: 600px;
+/* The height is 400 pixels */
+width: 100%;
+/* The width is the width of the web page */
+}
+
+label {
+font-size: 15px;
+font-family: Verdana, Helvetica, sans-serif;
+}
+
+.marker {
+color: black;
+}
+
+#selID {
+height: 30px;
+width: 130px;
+}
+
+#selMonth {
+height: 30px;
+width: 130px;
+}
+
+
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-1.5deg);
+  }
+  20% {
+    transform: rotateZ(1.5deg);
+  }
+  25% {
+    transform: rotateZ(-1.5deg);
+  }
+  30% {
+    transform: rotateZ(1.5deg);
+  }
+  35% {
+    transform: rotateZ(-1.5deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+.social-icons .social-icon-emily  {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.0rem;
+  width: 2.0rem;
+  background-color: #252627;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  transform-origin: 50% 5em;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  animation: wiggle 2s linear infinite;
+}
+
+.social-icons .social-icon-emily:before  {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.social-icons .social-icon-emily:hover:before  {
+  opacity:1;
+  visibility:visible;
+}
+
+.social-icons .social-icon-christine {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.0rem;
+  width: 2.0rem;
+  background-color: #252627;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  transform-origin: 50% 5em;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  animation: wiggle 2s linear infinite;
+}
+
+.social-icons .social-icon-christine:before  {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.social-icons .social-icon-christine:hover:before  {
+  opacity:1;
+  visibility:visible;
+}
+
+.social-icons .social-icon-john {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.0rem;
+  width: 2.0rem;
+  background-color: #252627;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  transform-origin: 50% 5em;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  animation: wiggle 2s linear infinite;
+}
+
+.social-icons .social-icon-john:before  {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.social-icons .social-icon-john:hover:before  {
+  opacity:1;
+  visibility:visible;
+}
+
+.social-icons .social-icon-graham {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.0rem;
+  width: 2.0rem;
+  background-color: #252627;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  transform-origin: 50% 5em;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  animation: wiggle 2s linear infinite;
+}
+
+.social-icons .social-icon-graham:before  {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.social-icons .social-icon-graham:hover:before  {
+  opacity:1;
+  visibility:visible;
+}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.wrapper{
+  width: 100%;
+  position: fixed;        
+  background-color: #252627;
+  /* padding: 10px 0; */
+  color: #fff;
+  z-index: 2;
+}
+.wrapper{
+  top: 0;
+}
+
+.navbar-brand {
+  background-color: #252627;
+}
+
+.navbar-top {
+  background-color: #252627;
+}
+
+.social-icons {
+  top:0;
+  right:0;
+  position:absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
+}
+
+.tableContainer {
+  /* padding:10px; */
+  height:300px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+.table {
+  position:sticky;
+  top:0;
+  width:100%;
+}
+
+th {
+  background: #343a40;
+  position: sticky;
+  top: 0px; /* Don't forget this, required for the stickiness */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  font-family: Verdana, Helvetica, sans-serif;
+  width: 80px;
+  padding: 5px; 
+}
+
+.h4, h4 {
+  font-size: 25px;
+  font-family: Verdana, Helvetica, sans-serif; 
+}
+
+.h5, h5 {
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+/* Make link clickable here */
+.h6, h6 {
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+}
