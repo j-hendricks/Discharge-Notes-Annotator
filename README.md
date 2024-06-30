@@ -13,7 +13,9 @@
 
 ## Introduction
 
-The **Clinical Discharge Notes Annotator** is an application designed to annotate clinical discharge notes, identify relationships between annotations, and determine the status of medical conditions as absent, present, or conditional. This tool aims to assist healthcare professionals in efficiently managing and understanding patient information.
+The **Clinical Discharge Notes Annotator** is an application designed to annotate clinical discharge notes, identify relationships between annotations, find related scholarly articles,and determine the status of medical conditions as absent, present, and conditional. This tool aims to assist healthcare professionals in efficiently managing and understanding patient information.
+
+Each language model (3 in total) was trained on data from the 2010 Concept, Assertion, and Relation Challenge by i2b2 ([find datasets here](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/)). Two SciBERT models were separately fine-tuned on this data for enabling the annotation and medical status functionality. The language model LUKE was fine-tuned on this data to perform the relation-detection functionality.
 
 ## Features
 
@@ -55,10 +57,13 @@ To use the application, follow these steps:
 
 ## Screenshots
 
+### Web Application Upon Loading
 ![Screenshot 1](./Resources/images/web_app_initial_screenshot.png)
 
+### Input Discharge Notes in the Upper Text Box, Then Clikc "Submit"
 ![Screenshot 2](./Resources/images/example_input.png)
 
+### Output Will Include: Highlighted Concepts, Cause-Effect Relationships Among Concepts, Presense/Absense of Medical Conditions, and Related Articles
 ![Screenshot 3](./Resources/images/example_output.png)
 
 ## Contributing
