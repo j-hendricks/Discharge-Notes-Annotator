@@ -60,7 +60,7 @@ To use the application, follow these steps:
 ### Web Application Upon Loading
 ![Screenshot 1](./Resources/images/web_app_initial_screenshot.png)
 
-### Input Discharge Notes in the Upper Text Box, Then Clikc "Submit"
+### Input Discharge Notes in the Upper Text Box, Then Click "Submit"
 ![Screenshot 2](./Resources/images/example_input.png)
 
 ### Output Will Include: Highlighted Concepts, Cause-Effect Relationships Among Concepts, Presense/Absense of Medical Conditions, and Related Articles
