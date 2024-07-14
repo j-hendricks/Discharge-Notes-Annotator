@@ -268,4 +268,4 @@ def result():
  return render_template('index.html',prediction=result[0], notes=to_predict_list['notes'].replace('/n',' '), title1 = t1, url1 = u1, title2 = t2, url2 = u2, title3=t3,url3=u3, w1=w1,w2=w2,w3=w3,relation=relations,assertion = result2[0])
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=80)
