@@ -70,7 +70,7 @@ To use the application, follow these steps:
 
 ### Not Sure Where to Start? Watch the Following Video!
 
-![Tutorail](https://drive.google.com/file/d/1GAr_LKCS-0rzrzvWU6pJUSCQ1PM5diXb/view?usp=sharing)
+![Tutorial](https://drive.google.com/file/d/1GAr_LKCS-0rzrzvWU6pJUSCQ1PM5diXb/view?usp=sharing)
 
 ## How to Build Models Yourself (Optional)
 
